@@ -1,4 +1,4 @@
-ad@charset "UTF-8";
+@charset "UTF-8";
 
 /* paleta de cores
 verde: #49a09d
@@ -34,6 +34,8 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 10px 5px 20px 0px black;
+    transition: width .5s, heigth .5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -48,3 +50,4 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 }
+ 
